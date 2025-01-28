@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.horoscapp.R
 import com.example.horoscapp.databinding.FragmentHoroscopeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HoroscopeFragment : Fragment() {
 
     private var _binding : FragmentHoroscopeBinding? = null //barra baja son funciones innaccesibles.
